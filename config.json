@@ -1,0 +1,22 @@
+{
+  "initial_jpy": 300000,
+  "benchmark": "ACWI",
+  "max_position_pct": 100,
+  "max_orders_per_window": 3,
+  "order_window_days": 6,
+  "min_reason_chars": 20,
+  "slippage_pct": 0.1,
+  "halt_drawdown_pct": 30,
+  "order_expiry_days": 10,
+  "allowed_types": ["EQUITY", "ETF"],
+  "markets": {
+    "":    {"name": "米国", "lot": 1, "cost_pct": 0.6},
+    ".T":  {"name": "日本", "lot": 1, "cost_pct": 0.2},
+    ".HK": {"name": "香港", "lot": 100, "cost_pct": 1.0},
+    ".SS": {"name": "上海", "lot": 100, "cost_pct": 1.0},
+    ".SI": {"name": "シンガポール", "lot": 100, "cost_pct": 1.0},
+    ".JK": {"name": "インドネシア", "lot": 100, "cost_pct": 1.0},
+    ".BK": {"name": "タイ", "lot": 100, "cost_pct": 1.0},
+    ".KL": {"name": "マレーシア", "lot": 100, "cost_pct": 1.0}
+  }
+}

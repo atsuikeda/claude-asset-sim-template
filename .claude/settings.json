@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python sim.py *)",
+      "PowerShell(python sim.py *)",
+      "WebSearch",
+      "WebFetch",
+      "Read",
+      "Edit(data/watchlist.json)",
+      "Edit(data/journal/**)"
+    ],
+    "deny": [
+      "Bash(python sim.py resume*)",
+      "PowerShell(python sim.py resume*)",
+      "Bash(python3 sim.py resume*)",
+      "Edit(sim.py)",
+      "Edit(data/state.json)",
+      "Edit(data/pending.json)",
+      "Edit(data/ledger.jsonl)",
+      "Edit(data/history.csv)",
+      "Edit(config.json)"
+    ]
+  }
+}
