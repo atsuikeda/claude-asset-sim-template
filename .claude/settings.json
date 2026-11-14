@@ -7,7 +7,15 @@
       "WebFetch",
       "Read",
       "Edit(data/watchlist.json)",
-      "Edit(data/journal/**)"
+      "Edit(data/journal/**)",
+      "Bash(git status*)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push origin HEAD:main)",
+      "PowerShell(git status*)",
+      "PowerShell(git add *)",
+      "PowerShell(git commit *)",
+      "PowerShell(git push origin HEAD:main)"
     ],
     "deny": [
       "Bash(python sim.py resume*)",
@@ -18,7 +26,13 @@
       "Edit(data/pending.json)",
       "Edit(data/ledger.jsonl)",
       "Edit(data/history.csv)",
-      "Edit(config.json)"
+      "Edit(config.json)",
+      "Bash(git push --force*)",
+      "Bash(git push -f*)",
+      "PowerShell(git push --force*)",
+      "PowerShell(git push -f*)",
+      "Bash(git reset --hard*)",
+      "PowerShell(git reset --hard*)"
     ]
   }
 }
